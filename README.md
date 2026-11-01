@@ -58,7 +58,7 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-Buka `http://localhost:8501`. Jalankan tes dengan `python -m pytest tests/ -v`.
+Buka `http://localhost:8501`. Jalankan tes dengan `python -m pytest tests/ -v`. Tes yang sama otomatis jalan di GitHub Actions setiap push dan pull request.
 
 Memperbarui data: ubah `data/kota.csv` atau `data/asumsi.csv` dan catat sumbernya di
 `data/SUMBER_DATA.md`. Tidak ada skrip unduh, karena tidak ada API publik untuk angka-angka ini.
