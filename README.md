@@ -6,11 +6,19 @@
 > untuk satu atap, dan apakah mencicil lebih masuk akal daripada menyewa?
 > Dibangun dengan Python, pandas, Plotly, dan Streamlit.
 
-*Puts the 2026 minimum wage of 13 Indonesian cities next to the price of a roof in the same city
-(subsidised house, small second-hand house, studio apartment, boarding room, rented house), counts
-the years of saving each one takes, and runs an honest buy-vs-rent calculation with a two-stage
-mortgage. Data collected once from published reports, with a confidence grade on every number.
-Built with Python, pandas, Plotly and Streamlit.*
+## 🇬🇧 In English
+
+**Count the years before the key turns.** Puts the 2026 minimum wage of 13 Indonesian cities next to the price of a roof in the same city (subsidized house, small second-hand house, studio apartment, boarding room, rented house), counts the years of saving each one takes, and runs an honest buy-vs-rent calculation.
+
+- **Rank** cities by years-to-own and price-to-income ratio.
+- **Simulate** a two-stage mortgage (fixed, then floating rate) against renting, with a break-even point.
+- **Adjust** salary, savings rate, growth rates, and loan terms from the sidebar.
+
+**Built with:** Python, pandas, NumPy, Plotly, Streamlit  
+**Data:** Official minimum-wage decrees and published property and rental reports (no scraping), with a confidence grade on every number  
+**Engineering:** pytest suite with CI on GitHub Actions, plus a learning mode on the finance math
+
+*The rest of this README is in Indonesian.*
 
 **🚀 Coba langsung di browser:** [roof-vs-paycheck.streamlit.app](https://roof-vs-paycheck.streamlit.app)
 
