@@ -1,5 +1,7 @@
 # 🏠 Roof vs Paycheck
 
+[![Tes](https://github.com/Avalon2222/roof-vs-paycheck/actions/workflows/tes.yml/badge.svg)](https://github.com/Avalon2222/roof-vs-paycheck/actions/workflows/tes.yml) [![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/) [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE) [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://roof-vs-paycheck.streamlit.app)
+
 > **Count the years before the key turns.**
 > Dashboard yang menyandingkan upah minimum 2026 di 13 kota Indonesia dengan harga rumah subsidi,
 > rumah seken kecil, apartemen studio, kos, dan kontrakan di kota yang sama. Berapa tahun menabung
